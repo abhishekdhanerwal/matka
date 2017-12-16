@@ -1,0 +1,79 @@
+<ion-side-menus>
+
+    <!-- Center content -->
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-royal" align-title="center">
+            <!-- Back button -->
+            <ion-nav-back-button>
+                Back
+            </ion-nav-back-button>
+
+            <!-- Burger button -->
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+
+            <!-- Cart button -->
+            <!--<ion-nav-buttons side="right">-->
+                <!--<button class="button button-icon button-clear ion-android-more-vertical" ui-sref="home">-->
+                <!--</button>-->
+            <!--</ion-nav-buttons>-->
+        </ion-nav-bar>
+
+        <!-- Main view content -->
+        <ion-nav-view animation="slide-left-right"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left" style="background-color: lightgrey" width="250">
+        <ion-content>
+
+            <!-- User profile -->
+            <div class="text-center" ui-sref="app.userImage">
+                <a>
+                    <img ng-if="vm.user.profilePicUrl != null" class="profile-picture circle" menu-close="" ng-src="{{vm.user.profilePicUrl}}">
+                    <img ng-if="vm.user.profilePicUrl == null" class="profile-picture circle" menu-close="" src="img/images.png">
+                    <h4>{{vm.user.name}}</h4>
+                </a>
+            </div>
+            <br />
+
+            <!-- Menu -->
+            <div class="list" menu-close="">
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.notice">
+                    <i class="icon ion-android-home"></i>
+                    Track Health
+                </div>
+
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.complaintList">
+                    <i class="icon ion-ios-heart"></i>
+                    Hire Dietitian
+                </div>
+
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.products">
+                    <i class="icon ion-android-cart"></i>
+                    Buy Products
+                </div>
+
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.profile">
+                    <i class="icon ion-android-person"></i>
+                    My Profile
+                </div>
+
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.support">
+                    <i class="icon ion-android-chat"></i>
+                    Support
+                </div>
+
+                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="auth.signout">
+                    <i class="icon ion-log-out"></i>
+                    Logout
+                </div>
+            </div>
+
+        </ion-content>
+
+    </ion-side-menu>
+
+</ion-side-menus>

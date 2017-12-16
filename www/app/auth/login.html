@@ -1,0 +1,42 @@
+<ion-view view-title="Login" hide-nav-bar="true" class="login-bg">
+  <ion-content class="login-bg" padding="true">
+    <div class="login-content">
+
+          <ng-form name="login_form" class="form-container" novalidate>
+            <div class="input-list list list-inset animated bounceInLeft ">
+              <label class="item item-input">
+                <input type="email" placeholder="Enter a valid E-mail" name="email"
+                       ng-model="vm.user.email"
+                       ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>
+              </label>
+              <label class="item item-input" show-hide-container>
+                <input type="password" placeholder="password" name="password" ng-model="vm.user.password" required show-hide-input>
+              </label>
+            </div>
+            <p ng-show="error" class="message error">{{vm.error}}</p>
+            <div class="animated bounceInRight">
+              <button type="submit" class="button button-royal button-block" ng-click="vm.signin()" ng-disabled="login_form.$invalid">
+                Log in
+              </button>
+            </div>
+          </ng-form>
+      <br /><br />
+          <div class="alternative-actions text-center">
+            <button class="button button-clear button-royal" ui-sref="auth.forgot">
+              <strong>Forgot Password?</strong>
+            </button>
+            <!--<a class="action-link button button-clear" ui-sref="auth.forgot"><strong>Forgot Password?</strong></a>-->
+          </div>
+
+      </div>
+  </ion-content>
+  <ion-footer-bar align-title="center" class="bar-royal">
+    <div class="buttons">
+      <button class="button"></button>
+    </div>
+    <a ui-sref="auth.signup"><h1 class="title">New Here? Sign Up</h1></a>
+    <div class="buttons">
+      <button class="button"></button>
+    </div>
+  </ion-footer-bar>
+</ion-view>

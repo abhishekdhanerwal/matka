@@ -1,0 +1,92 @@
+<ion-view view-title="SignUp" hide-nav-bar="true" class="login-bg" cache-view="false">
+    <ion-content class="login-bg">
+        <div class="signup-content">
+
+            <div class="row">
+                <div class="col col-center">
+                    <div class="card login-container animated bounceInLeft col col-99">
+
+                        <ng-form name="vm.Form" role="Form" id="Form" novalidate>
+
+                            <div class="item item-body">
+
+                                <label class="item item-input item-floating-label"
+                                       ng-class="{ 'has-errors' : vm.Form.name.$dirty && vm.Form.name.$invalid, 'no-errors' : vm.Form.name.$dirty && vm.Form.name.$valid}">
+                                    <span class="input-label">Name</span>
+                                    <input type="text" placeholder="Enter your First Name" name="name"
+                                           ng-model="vm.user.name" ng-pattern="/^[a-zA-Z\s]*$/" required>
+                                </label>
+                                <span class="error-container" ng-show="vm.Form.name.$dirty && vm.Form.name.$error"
+                                      ng-messages="vm.Form.name.$error"
+                                      ng-messages-include="app/layout/error-messages.html">
+                                </span>
+
+                                <label class="item item-input item-floating-label"
+                                       ng-class="{ 'has-errors' : vm.Form.email.$dirty && vm.Form.email.$invalid, 'no-errors' : vm.Form.email.$dirty && vm.Form.email.$valid}">
+                                    <span class="input-label">Email</span>
+                                    <input type="email" placeholder="Enter E-mail" name="email"
+                                           ng-model="vm.user.email"
+                                           ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>
+                                </label>
+                                <span class="error-container" ng-show="vm.Form.email.$dirty && vm.Form.email.$error"
+                                     ng-messages="vm.Form.email.$error"
+                                     ng-messages-include="app/layout/error-messages.html">
+                                </span>
+
+                                <label class="item item-input item-floating-label"
+                                       ng-class="{ 'has-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$invalid, 'no-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$valid}">
+                                    <span class="input-label">Mobile</span>
+                                    <input type="number" placeholder="Enter your Mobile Number" name="mobile"
+                                           ng-model="vm.user.mobile" ng-pattern="/^[0-9]*$/" ng-minlength=10
+                                           ng-maxlength=10 required>
+                                </label>
+                                <span class="error-container" ng-show="vm.Form.mobile.$dirty && vm.Form.mobile.$error"
+                                     ng-messages="vm.Form.mobile.$error"
+                                     ng-messages-include="app/layout/error-messages.html">
+                                </span>
+
+                                <label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.newPassword.$dirty && vm.Form.newPassword.$invalid, 'no-errors':vm.Form.newPassword.$valid}">
+                                    <span class="input-label">Password</span>
+                                    <input type="password"   placeholder="Enter a new Password"
+                                           name="newPassword" ng-model="vm.newPassword" ng-minlength=6 required>
+                                </label>
+                                <span class="error-container" ng-show="vm.Form.newPassword.$dirty && vm.Form.newPassword.$error"
+                                     ng-messages="vm.Form.newPassword.$error" ng-messages-include="app/layout/error-messages.html">
+                                </span>
+
+                                <label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.password2.$dirty && vm.Form.password2.$invalid, 'no-errors':vm.Form.password2.$valid}">
+                                    <span class="input-label">Confirm Password</span>
+                                    <input type="password" placeholder="Repeat Password"
+                                           name="password2" ng-model="vm.password2" compare-to="vm.newPassword" required>
+                                </label>
+                                <span class="error-container" ng-show="vm.Form.password2.$dirty && vm.Form.password2.$error"
+                                     ng-messages="vm.Form.password2.$error" ng-messages-include="app/layout/error-messages.html">
+                                </span>
+
+                            </div>
+                        </ng-form>
+                    </div>
+                    <div class="animated bounceInRight col col-center">
+                        <button type="submit" class="button button-royal button-block" ng-click="vm.signup()"
+                                ng-disabled="vm.Form.$invalid">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+    <ion-footer-bar align-title="center" class="bar-royal">
+        <div class="buttons" ui-sref="auth.dietitian">
+            <button class="button">
+                <span ng-if="!vm.dietitian" >Sign Up As Dietitian</span>
+            </button>
+        </div>
+        <a ng-if="vm.dietitian"  ui-sref="auth.login"><h1 class="title">Already a member? Sign In</h1></a>
+        <div class="buttons pull-right" ui-sref="auth.login">
+            <button class="button">
+                <span ng-if="!vm.dietitian">Already a member? Sign In</span>
+            </button>
+        </div>
+    </ion-footer-bar>
+</ion-view>
