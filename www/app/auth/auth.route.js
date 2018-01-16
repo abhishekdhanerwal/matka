@@ -39,22 +39,6 @@
                 }
             },
             {
-                state: 'auth.dietitian',
-                config: {
-                    url: '/dietitian',
-                    templateUrl: 'app/auth/signUp.html',
-                    controller: 'DietitianController',
-                    controllerAs: 'vm'
-                }
-            },
-            {
-                state: 'auth.redirectDietitian',
-                config: {
-                    url: '/redirectDietitian',
-                    templateUrl: 'app/auth/redirectDietitian.html'
-                }
-            },
-            {
                 state: 'auth.login',
                 config: {
                     url: '/login',

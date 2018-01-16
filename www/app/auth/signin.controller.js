@@ -16,7 +16,7 @@
 
           principal.signin(vm.user).then(function (userInfo) {
               if(userInfo.user.role == USER_ROLE.ROLE_CONSUMER){
-                  $state.go('app.profile');
+                  $state.go('app.playboard');
               }
               else
                   logger.error('Login from website');

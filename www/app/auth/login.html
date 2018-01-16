@@ -5,9 +5,9 @@
           <ng-form name="login_form" class="form-container" novalidate>
             <div class="input-list list list-inset animated bounceInLeft ">
               <label class="item item-input">
-                <input type="email" placeholder="Enter a valid E-mail" name="email"
-                       ng-model="vm.user.email"
-                       ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>
+                <input type="number" placeholder="Enter your mobile number" name="mobile"
+                       ng-model="vm.user.mobile"
+                       ng-pattern="/^[0-9]*$/" required>
               </label>
               <label class="item item-input" show-hide-container>
                 <input type="password" placeholder="password" name="password" ng-model="vm.user.password" required show-hide-input>

@@ -1,59 +1,115 @@
-<ion-view view-title="Notice" cache-view="false">
+<ion-view view-title="My Profile" cache-view="false">
 
-    <div class="spinner" ng-show="vm.progress">
-        <ion-spinner icon="dots" class="spinner-dark"></ion-spinner>
-    </div>
+    <ion-content class="stable-bg" ng-show="!vm.progress" overflow-scroll="true">
 
-    <div class="list fixed-header">
-        <label class="item item-input item-select">
-            <div class="input-label">
-                Notice Type
-            </div>
-            <select name="noticeType" ng-model="vm.noticeType"
-                    ng-change="vm.populateNoticeList()" ng-options="notice for notice in vm.noticeTypeList"
-                    required>
-            </select>
-        </label>
-    </div>
+        <div ng-if="vm.isProfileSelected" ng-show="!vm.progressInnerView">
+            <ng-form name="vm.profileForm" role="profileForm" id="profileForm" novalidate>
+                <div class="list">
+                    <label class="item item-input item-stacked-label" ng-class="{'has-error':vm.profileForm.name.$dirty && vm.profileForm.name.$invalid, 'no-errors':vm.profileForm.name.$valid}">
+                        <span class="input-label">Name</span>
+                        <input type="text" placeholder="name" ng-model="vm.user.name" name="name" required>
+                    </label>
 
-    <ion-content class="stable-bg ion-content-below-fixed-header" ng-show="!vm.progress" overflow-scroll="true">
+                    <div class="error-container" ng-show="vm.profileForm.name.$dirty && vm.profileForm.name.$error"
+                         ng-messages="vm.profileForm.name.$error" ng-messages-include="app/layout/error-messages.html">
+                    </div>
 
-        <div class="card" ng-if="vm.noticeList.length == 0 || vm.noticeList == undefined">
 
-            <div class="row">
-                <div class="col col-25"></div>
-                <div class="col col-center">
-                    <strong class="assertive">Notice Board Empty</strong>
+                    <label class="item item-input item-stacked-label" ng-class="{'has-error':vm.profileForm.email.$dirty && vm.profileForm.email.$invalid, 'no-errors':vm.profileForm.email.$valid}">
+                        <span class="input-label">Email</span>
+                        <input type="email" placeholder="email" ng-model="vm.user.email" name="email" required>
+                    </label>
+
+                    <div class="error-container" ng-show="vm.profileForm.email.$dirty && vm.profileForm.email.$error"
+                         ng-messages="vm.profileForm.email.$error" ng-messages-include="app/layout/error-messages.html">
+                    </div>
+
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Mobile Number</span>
+                        <input type="text" placeholder="number" ng-model="vm.user.mobile" ng-readonly="true">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Date of Birth</span>
+                        <input type="text" placeholder="number" ng-model="vm.user.dateOfBirth" ng-readonly="true">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">State</span>
+                        <input type="text" placeholder="address" ng-model="vm.user.state" ng-readonly="true">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">City</span>
+                        <input type="text" placeholder="address" ng-model="vm.user.city" ng-readonly="true">
+                    </label>
+
                 </div>
-                <div class="col col-25"></div>
-            </div>
-
+                <div class="item item-body bottom-content">
+                    <button type="submit" class="button button-balanced button-block" ng-click="vm.submitProfile()" ng-disabled="vm.Form.$invalid" >
+                        Submit
+                    </button>
+                </div>
+            </ng-form>
         </div>
 
-        <div class="posts-list">
-            <div ng-repeat="notice in vm.noticeList" class="list card post-item">
-                <div class="post-heading item item-text-wrap" style="background-color: lightgrey">
-                    <h2 class="post-title" ng-bind-html="notice.startDate | date:'EEEE'"></h2>
-                    <p class="post-author">
-                        <span class="text-white">{{notice.startDate | date:'dd MMM'}}</span>
-                    </p>
-                </div>
-                <div class="post-content item item-text-wrap" post-content>
-                    <strong>{{notice.subject}}</strong>
-                    <p class="post-excerpt" dynamic-anchor-fix ng-bind-html="notice.description"></p>
-                    <div class="post-actions row">
-                        <div class="actions col col-center col-66">
-                            <!--<a class="button button-icon icon ion-bookmark" ng-click="bookmarkPost(post)"></a>-->
+        <div ng-if="vm.isChangePasswordSelected" ng-show="!vm.progressInnerView">
+            <div class="card login-container">
+                <ng-form name="vm.Form" role="Form" id="Form" novalidate>
+
+                    <div class="list padding">
+                        <label class="item item-input" show-hide-container ng-class="{'has-error':vm.Form.currentPassword.$dirty && vm.Form.currentPassword.$invalid, 'no-errors':vm.Form.currentPassword.$valid}">
+                            <input type="password"  placeholder="Enter your Password"
+                                   name="currentPassword" ng-model="vm.currentPassword" ng-minlength=6 required  show-hide-input>
+                        </label>
+
+                        <div class="error-container" ng-show="vm.Form.currentPassword.$dirty && vm.Form.currentPassword.$error"
+                             ng-messages="vm.Form.currentPassword.$error" ng-messages-include="app/layout/error-messages.html">
                         </div>
-                        <div class="read-more col col-center col-33">
-                            <a ui-sref="app.readNotice({notice: notice})" class="button button-small button-block button-assertive">
-                                Read more
-                            </a>
+
+                        <label class="item item-input" show-hide-container ng-class="{'has-error':vm.Form.newPassword.$dirty && vm.Form.newPassword.$invalid, 'no-errors':vm.Form.newPassword.$valid}">
+                            <input type="password"   placeholder="Enter a new Password"
+                                   name="newPassword" ng-model="vm.newPassword" ng-minlength=6 required show-hide-input custom-validate validate-field="vm.currentPassword">
+                        </label>
+
+                        <div class="error-container" ng-show="vm.Form.newPassword.$dirty && vm.Form.newPassword.$error"
+                             ng-messages="vm.Form.newPassword.$error" ng-messages-include="app/layout/error-messages.html">
+                            <div class="error" ng-message="passwordValidator">
+                                <i class="ion-information-circled"></i>
+                                New Password cannot be same as Old Password!
+                            </div>
                         </div>
+
+                        <label class="item item-input" show-hide-container ng-class="{'has-error':vm.Form.password2.$dirty && vm.Form.password2.$invalid, 'no-errors':vm.Form.password2.$valid}">
+                            <input type="password" placeholder="Repeat Password"
+                                   name="password2" ng-model="vm.password2" compare-to="vm.newPassword" required show-hide-input>
+                        </label>
+
+                        <div class="error-container" ng-show="vm.Form.password2.$dirty && vm.Form.password2.$error"
+                             ng-messages="vm.Form.password2.$error" ng-messages-include="app/layout/error-messages.html">
+                        </div>
+
+                        <input type="hidden"  name="key" ng-model="vm.key"/>
                     </div>
-                </div>
+
+                    <div class="item item-body bottom-content">
+                        <button type="submit" class="button button-balanced button-block" ng-click="vm.submitPassword()" ng-disabled="vm.Form.$invalid" >
+                            Change  Password
+                        </button>
+                    </div>
+                </ng-form>
             </div>
         </div>
 
     </ion-content>
+
+    <div class="tabs-striped tabs-color-assertive">
+        <div class="tabs tabs-icon-left">
+            <a class="tab-item" ng-class="vm.isProfileSelected ? 'active' : ''" ng-click="vm.changeTab('profile')">
+                <i class="icon ion-person"></i>
+                My Information
+            </a>
+            <a class="tab-item" ng-class="vm.isChangePasswordSelected ? 'active' : ''" ng-click="vm.changeTab('password')">
+                <i class="icon ion-key"></i>
+                Chnage Password
+            </a>
+        </div>
+    </div>
 </ion-view>

@@ -10,7 +10,10 @@ angular.module('app', [
     'app.logger',
     'app.router',
     'app.layout',
+    'app.playboard',
+    'app.history',
     'app.profile',
+    'ionic-datepicker',
     'ionic',
     'nl2br',
     'ngCordova',
@@ -22,7 +25,7 @@ angular.module('app', [
         $httpProvider.defaults.headers.common["X-Requested-With"] = 'XMLHttpRequest';
     }])
 
-    .run(function($ionicPlatform,$rootScope,$http, $ionicConfig, $timeout, $ionicPopup, $ionicHistory, $state, $location, ConnectivityMonitor) {
+    .run(function($ionicPlatform,$rootScope,$http, $ionicConfig, $timeout, $ionicPopup, $ionicHistory, $state, $location, ConnectivityMonitor, $localStorage) {
         $rootScope.currentUser = null;
         $rootScope.currentState = null;
         $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
@@ -35,6 +38,9 @@ angular.module('app', [
             ConnectivityMonitor.startWatching();
 
         });
+
+        if($localStorage.__identity != undefined && $localStorage.__identity.token)
+            $http.defaults.headers.common['Authorization'] = 'Bearer ' + $localStorage.__identity.token;
 
 
         $ionicPlatform.ready(function() {

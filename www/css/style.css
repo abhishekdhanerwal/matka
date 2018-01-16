@@ -35,3 +35,12 @@ div.spinner {
 .health-program-bg {
     background: url("../img/wallpaper-one.jpg") no-repeat center;
     background-size: 100% 100%; }
+
+
+.bar-footer{
+    height:50px !important;
+}
+
+.button.customBtn{
+    width:150px;
+}

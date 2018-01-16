@@ -10,8 +10,8 @@
     function profileFactory($http , __env) {
         var service = {};
 
-        service.updateUser = function(user){
-            var promise = $http.put(__env.dataServerUrl + '/user/update', user)
+        service.getUserInfo = function(id){
+            var promise = $http.get(__env.dataServerUrl +'/user/details/'+id)
                 .then(
                     function (response) {
                         return response;

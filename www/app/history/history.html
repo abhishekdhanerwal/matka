@@ -1,0 +1,33 @@
+<ion-view view-title="History" cache-view="false">
+
+    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true">
+        <div class="card login-container" ng-repeat="obj in vm.history">
+            <div class="list padding" data-tap-disabled="true">
+
+                <div class = "item">
+                    <div class="row">
+                        <div class="col col-55">
+                            <h1>{{obj.date | date: dd/MMM/YYYY}}</h1>
+                            <h2 ng-if="obj.checkPoint == 'morning'"> 01:00 PM</h2>
+                            <h2 ng-if="obj.checkPoint == 'evening'"> 08:00 PM</h2>
+                        </div>
+                        <div class="col col-35">
+                            <i ng-if="!obj.won" class="pull-right text-2x icon ion-android-sad" style="color:red"></i>
+                            <i ng-if="obj.won" class="pull-right text-2x icon ion-trophy" style="color:goldenrod"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class = "item item-body row">
+                    <div class="list padding" data-tap-disabled="true">
+                        <h2> Token : {{obj.token}}</h2>
+                        <h2> Result :
+                            <span ng-if="!obj.won && obj.resultPending">Pending !!</span>
+                            <span ng-if="!obj.won && !obj.resultPending">Sorry ! Better luck next time</span>
+                            <span ng-if="obj.won">Congratulations you won</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

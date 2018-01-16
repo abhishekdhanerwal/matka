@@ -1,0 +1,44 @@
+<!--
+  This template loads for the 'user' state (app.js)
+-->
+<ion-view view-title="Profile" class="has-footer-buttons">
+
+    <ion-content>
+        <br />
+        <!-- Cover and profile picture -->
+            <div class="row">
+                <div class="col col-99" style="text-align: center">
+                    <h4><strong>{{vm.user.name | uppercase}}</strong></h4>
+                </div>
+            </div>
+
+            <br /><br />
+            <div class="row">
+                <div class="col col-99" style="text-align: center">
+                    <img ng-if="vm.user.profilePicUrl != null" style="width:80%;height:300px;" ng-src="{{vm.user.profilePicUrl}}">
+                    <img ng-if="vm.user.profilePicUrl == null" style="width:80%;height:300px;" src="img/images.png">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-99" style="text-align: center">
+                    <i ng-click="vm.takePicture()" class="text-2x ion-camera"></i>&emsp;
+                    <i ng-click="vm.selectPicture()" class="text-2x ion-folder"></i>
+                </div>
+            </div>
+
+    </ion-content>
+
+    <ion-footer-bar class="bar-assertive">
+        <div class="row item-button-group">
+
+            <div class="col button button-assertive" ng-click="vm.resetData()" ng-disabled="vm.enableReset">
+                RESET
+            </div>
+
+            <div class="col button button-balanced" ng-click="vm.uploadPicture()" ng-disabled="vm.enableSave">
+                SAVE
+            </div>
+        </div>
+    </ion-footer-bar>
+</ion-view>

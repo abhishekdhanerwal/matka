@@ -13,7 +13,10 @@
     .constant('__env', env)
     .constant('USER_ROLE', {
         'ROLE_ADMIN': 'admin',
-        'ROLE_CONSUMER': 'consumer',
-        'ROLE_DIETITIAN': 'dietitian'
+        'ROLE_CONSUMER': 'consumer'
     })
+      .constant('Checkpoint', {
+          'CheckPoint_Morning':'morning',
+          'CheckPoint_Evening':'evening'
+      })
 })();
