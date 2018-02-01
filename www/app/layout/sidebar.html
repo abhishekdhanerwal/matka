@@ -26,43 +26,53 @@
     </ion-side-menu-content>
 
     <!-- Left menu -->
-    <ion-side-menu side="left" style="background-color: lightgrey" width="250">
+    <ion-side-menu side="left" style="background-color: black" width="250">
         <ion-content>
 
             <!-- User profile -->
-            <div class="text-center" ui-sref="app.userImage">
+            <div class="text-center" style="background-color: black" ui-sref="app.userImage">
                 <a>
-                    <img ng-if="vm.user.profilePicUrl != null" class="profile-picture circle" menu-close="" ng-src="{{vm.user.profilePicUrl}}">
-                    <img ng-if="vm.user.profilePicUrl == null" class="profile-picture circle" menu-close="" src="img/images.png">
-                    <h4>{{vm.user.name | uppercase}}</h4>
-                    <h4>Points - {{vm.user.points}}</h4>
+                    <img ng-if="vm.user.profilePic != null" class="profile-picture circle" menu-close="" ng-src="{{vm.user.profilePic}}">
+                    <img ng-if="vm.user.profilePic == null" class="profile-picture circle" menu-close="" src="img/images.png">
+                    <h3 class="light"><strong>{{vm.user.name | uppercase}}</strong></h3>
+                    <h4 class="light">Points - {{vm.user.points}} </h4>
                 </a>
             </div>
             <br />
 
             <!-- Menu -->
-            <div class="list" menu-close="">
-                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.playboard">
+            <div class="list sidebar-font" menu-close="">
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.playboard">
                     <i class="icon ion-android-walk"></i>
                     Playboard
                 </div>
 
-                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.history">
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.history">
                     <i class="icon ion-compose"></i>
                     History
                 </div>
 
-                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.profile">
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.profile">
                     <i class="icon ion-android-person"></i>
                     My Profile
                 </div>
 
-                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="app.share">
-                    <i class="icon ion-network"></i>
-                    Share
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.transaction">
+                    <i class="icon ion-social-usd"></i>
+                    My Transactions
                 </div>
 
-                <div class="item item-icon-left" style="background-color: lightgrey" ui-sref="auth.signout">
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.share">
+                    <i class="icon ion-network"></i>
+                    Share & Earn
+                </div>
+
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="app.writeToUs">
+                    <i class="icon ion-edit"></i>
+                    Write To Us
+                </div>
+
+                <div class="item item-icon-left light" style="background-color: black" ui-sref="auth.signout">
                     <i class="icon ion-log-out"></i>
                     Logout
                 </div>

@@ -24,6 +24,13 @@
         function (isOpen) {
           if (isOpen){
             vm.user = angular.copy($localStorage.__identity.user);
+            if(vm.user.profilePic) {
+              if (vm.user.fbLogin)
+                vm.user.profilePic = 'http://graph.facebook.com/' + vm.user.profilePic + '/picture?width=270&height=270';
+              else
+                vm.user.profilePic = __env.dataServerUrl + '/user/' + vm.user.profilePic;
+            }
+            console.log(vm.user)
           }
         });
    }

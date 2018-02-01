@@ -1,0 +1,32 @@
+<ion-view view-title="Winners" class="stable-bg" cache-view="false">
+
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
+
+    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true" padding="true">
+        <div class="card login-container" ng-repeat="obj in vm.winnerList">
+            <div class="list padding" data-tap-disabled="true">
+
+                <div class = "item item-avatar">
+                    <img ng-if="obj.userId.profilePic != null" ng-src = "{{obj.userId.profilePic}}">
+                    <img ng-if="obj.userId.profilePic == null" src="img/images.png">
+                    <h2>{{obj.userId.name}}</h2>
+                </div>
+                <div class = "item item-body row">
+                        <h3> Token : {{obj.wonByToken}}</h3>
+                </div>
+
+                <!--<div class="button-bar">-->
+                    <!--<a class="button button-royal button-small" ng-click="vm.openDatePicker(obj.helperNo)">Extend Date</a>-->
+                    <!--<a class="button button-positive button-small" ng-click="vm.dialNumber(obj.mobile)">Call</a>-->
+                    <!--<a class="button button-assertive button-small" ng-click = "vm.showPopup(obj.helperNo)">Remove</a>-->
+                <!--</div>-->
+
+                <!--<button type="submit" class="button button-royal button-block"  ui-sref="app.editComplaint({id : obj.complaintId})">-->
+                <!--Edit-->
+                <!--</button>-->
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -16,7 +16,7 @@
                 state: 'startAction',
                 config: {
                     url: '',
-                    template: '<div class="spinner" ng-show="vm.progress"><ion-spinner icon="android"></ion-spinner></div>',
+                    templateUrl: 'app/auth/init.html',
                     controller: 'InitController',
                     controllerAs: 'vm'
                 }
@@ -52,6 +52,22 @@
                 config: {
                     url: '/signout',
                     controller: 'SignoutController'
+                }
+            },
+            {
+                state: 'auth.validation',
+                config: {
+                    url: '/validation',
+                    templateUrl: 'app/auth/validation.html',
+                    controller: 'ValidationController',
+                    controllerAs: 'vm'
+                }
+            },
+            {
+                state: 'auth.terms',
+                config: {
+                    url: '/terms',
+                    templateUrl: 'app/auth/terms.html',
                 }
             },
             {

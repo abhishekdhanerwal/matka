@@ -1,0 +1,28 @@
+<ion-view view-title="Support" cache-view="false">
+
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
+
+    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true" padding="true">
+
+        <div class="padding">
+            <ng-form name="vm.Form" role="Form" id="Form" novalidate>
+
+                        <div class="input-label" name="complaintType" style="font-style: italic">
+                            <strong>Subject</strong>
+                        </div>
+                        <input type="text" style="width: 100%" placeholder="subject" ng-model="vm.mail.subject" >
+
+                        <span class="input-label" style="font-style: italic"><strong>Message</strong></span>
+                        <textarea style="height: 100px; width: 100%" placeholder="message" ng-model="vm.mail.description">
+                                </textarea>
+
+                    <button type="submit" class="button button-balanced button-block" ng-click="vm.submit()" ng-disabled="vm.mail.description == undefined || vm.mail.description.length < 1" >
+                        Submit
+                    </button>
+            </ng-form>
+        </div>
+
+    </ion-content>
+</ion-view>

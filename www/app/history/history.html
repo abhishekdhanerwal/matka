@@ -1,13 +1,24 @@
-<ion-view view-title="History" cache-view="false">
+<ion-view view-title="History" class="stable-bg" cache-view="false">
+
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
 
     <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true">
+        <div class="card login-container" ng-if="vm.history.length == 0">
+            <div class="row">
+                <div class="col text-center">
+                    <h3>You have not played before</h3>
+                </div>
+            </div>
+        </div>
         <div class="card login-container" ng-repeat="obj in vm.history">
             <div class="list padding" data-tap-disabled="true">
 
                 <div class = "item">
                     <div class="row">
                         <div class="col col-55">
-                            <h1>{{obj.date | date: dd/MMM/YYYY}}</h1>
+                            <h1 class="date-font">{{obj.date | date: dd/MMM/YYYY}}</h1>
                             <h2 ng-if="obj.checkPoint == 'morning'"> 01:00 PM</h2>
                             <h2 ng-if="obj.checkPoint == 'evening'"> 08:00 PM</h2>
                         </div>
@@ -19,8 +30,8 @@
                 </div>
                 <div class = "item item-body row">
                     <div class="list padding" data-tap-disabled="true">
-                        <h2> Token : {{obj.token}}</h2>
-                        <h2> Result :
+                        <h2 class="history-result-font"> Token : {{obj.token}}</h2>
+                        <h2 class="history-result-font"> Result :
                             <span ng-if="!obj.won && obj.resultPending">Pending !!</span>
                             <span ng-if="!obj.won && !obj.resultPending">Sorry ! Better luck next time</span>
                             <span ng-if="obj.won">Congratulations you won</span>

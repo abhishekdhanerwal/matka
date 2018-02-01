@@ -1,0 +1,40 @@
+<ion-view view-title="Add Money" cache-view="false">
+    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true" padding="true">
+
+        <div class="padding">
+
+            <div class="row">
+                <img style="width: 100%; height:50%;" src="img/imageedit_1_2318481002.png">
+            </div>
+
+            <div class="jumbotron text-center">
+                <!--<h1>Payment Gateway</h1>-->
+                <!--<label> Rs </label>-->
+                <input type="number" style="background-color:white;
+              border: groove 4px #D8BFD8;width: 100%; height:50px" ng-model="vm.amount" name="amount" placeholder="Amount to be added">
+                <form id="paymentForm" action='https://test.payu.in/_payment' method='post'>
+                    <input type="hidden" name="key" value="{{vm.mkey}}" />
+                    <input type="hidden" name="txnid" value="{{vm.txnid}}" />
+                    <input type="hidden" name="amount" value="{{vm.amount}}" />
+                    <input type="hidden" name="productinfo" value="{{vm.productInfo}}" />
+                    <input type="hidden" name="firstname" value="{{vm.firstName}}" />
+                    <input type="hidden" name="udf1" value={{vm.id}} />
+                    <input type="hidden" name="email" value="{{vm.email}}" />
+                    <input type="hidden" name="phone" value="{{vm.phone}}" />
+                    <input type="hidden" name="lastname" value="{{vm.lastName}}" />
+                    <input type="hidden" name="surl" value="{{vm.surl}}" />
+                    <input type="hidden" name="furl" value="{{vm.Furl}}" />
+                    <input type="hidden" name="hash" id="hash" value="{{hash}}">
+                    <!--<div class="pay-now-button-outer">-->
+                        <!--<button class="btn btn-primary fontBold" ng-click="vm.presubmit()" type="button">PAY NOW</button>-->
+                    <!--</div>-->
+                    <button class="button button-block button-balanced" ng-click="vm.presubmit()" type="button">
+                        PAY NOW
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

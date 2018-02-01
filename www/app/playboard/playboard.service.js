@@ -10,6 +10,18 @@
     function playboardFactory($http , __env) {
         var service = {};
 
+        service.getQuestions = function () {
+            var promise = $http.get(__env.dataServerUrl + '/questions/view')
+                .then(
+                    function (data) {
+                        return data;
+                    },
+                    function (errors) {
+                        return errors;
+                    });
+            return promise;
+        };
+
         service.generateRandomCoupon = function(id , checkpoint){
             var promise = $http.post(__env.dataServerUrl + '/token/generate/'+id +'?checkpoint='+ checkpoint)
                 .then(

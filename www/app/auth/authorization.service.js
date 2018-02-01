@@ -12,7 +12,6 @@
     var service = {};
 
     service.setUserToken = function (token , user) {
-      // console.log($localStorage)
       $localStorage.__identity = {};
       $localStorage.__identity.user = user;
       $localStorage.__identity.token = token;

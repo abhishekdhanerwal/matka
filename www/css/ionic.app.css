@@ -9420,7 +9420,7 @@ a.button {
   color: #f8f8f8; }
 
 .stable-bg {
-  background-color: #f8f8f8; }
+  background: url("../img/application-bg.jpg") no-repeat center; }
 
 .stable-border {
   border-color: #b2b2b2; }
@@ -9788,7 +9788,7 @@ a {
   font-size: 3em; }
 
 .login-bg {
-  background: url("../img/login-bg-matka.jpg") no-repeat center;
+  background-color:white;
   background-size: 100% 100%; }
   .login-bg .scroll {
     display: flex;

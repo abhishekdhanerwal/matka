@@ -1,112 +1,232 @@
-<ion-view view-title="SignUp" hide-nav-bar="true" class="login-bg" cache-view="false">
-    <ion-content class="login-bg">
-        <div class="signup-content">
+<ion-view view-title="SignUp" hide-nav-bar="true" cache-view="false">
+    <!--<ion-header-bar align-title="center">-->
 
-            <div class="row">
-                <div class="col col-center">
-                    <div class="card login-container animated bounceInLeft">
+    <!--</ion-header-bar>-->
 
-                        <ng-form name="vm.Form" role="Form" id="Form" novalidate>
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
 
-                            <div class="item item-body">
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.name.$dirty && vm.Form.name.$invalid, 'no-errors' : vm.Form.name.$dirty && vm.Form.name.$valid}">
-                                    <span class="input-label">Name</span>
-                                    <input type="text" placeholder="Enter your Name" name="name"
-                                           ng-model="vm.user.name" ng-pattern="/^[a-zA-Z\s]*$/" required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.name.$dirty && vm.Form.name.$error"
-                                      ng-messages="vm.Form.name.$error"
-                                      ng-messages-include="app/layout/error-messages.html">
+    <ion-content overflow-scroll="true" ng-show="!vm.progress" padding="true">
+        <div class="row padding">
+            <div class="col col-center">
+                <div class="animated bounceInLeft">
+
+                    <ng-form name="vm.Form" role="Form" id="Form" novalidate>
+
+                        <div class="list">
+
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.name.$dirty && vm.Form.name.$invalid, 'no-errors' : vm.Form.name.$dirty && vm.Form.name.$valid}">
+                                <span class="input-label headline-font">Name</span>
+                                <input type="text" placeholder="Enter your Name" name="name"
+                                       ng-model="vm.user.name" ng-pattern="/^[a-zA-Z\s]*$/" required>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.name.$dirty && vm.Form.name.$error"
+                                  ng-messages="vm.Form.name.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
                                 </span>
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.email.$dirty && vm.Form.email.$invalid, 'no-errors' : vm.Form.email.$dirty && vm.Form.email.$valid}">
-                                    <span class="input-label">Email</span>
-                                    <input type="email" placeholder="Enter E-mail" name="email"
-                                           ng-model="vm.user.email"
-                                           ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.email.$dirty && vm.Form.email.$error"
-                                     ng-messages="vm.Form.email.$error"
-                                     ng-messages-include="app/layout/error-messages.html">
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.email.$dirty && vm.Form.email.$invalid, 'no-errors' : vm.Form.email.$dirty && vm.Form.email.$valid}">
+                                <span class="input-label headline-font">Email</span>
+                                <input type="email" placeholder="Enter E-mail" name="email"
+                                       ng-model="vm.user.email"
+                                       ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.email.$dirty && vm.Form.email.$error"
+                                  ng-messages="vm.Form.email.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
                                 </span>
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$invalid, 'no-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$valid}">
-                                    <span class="input-label">Mobile</span>
-                                    <input type="number" placeholder="Enter your Mobile Number" name="mobile"
-                                           ng-model="vm.user.mobile" ng-pattern="/^[0-9]*$/" ng-minlength=10
-                                           ng-maxlength=10 required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.mobile.$dirty && vm.Form.mobile.$error"
-                                     ng-messages="vm.Form.mobile.$error"
-                                     ng-messages-include="app/layout/error-messages.html">
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$invalid, 'no-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$valid}">
+                                <span class="input-label headline-font">Mobile</span>
+                                <input type="number" placeholder="Enter your Mobile Number" name="mobile"
+                                       ng-model="vm.user.mobile" ng-pattern="/^[0-9]*$/" ng-minlength=10
+                                       ng-maxlength=10 required>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.mobile.$dirty && vm.Form.mobile.$error"
+                                  ng-messages="vm.Form.mobile.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
                                 </span>
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.state.$dirty && vm.Form.state.$invalid, 'no-errors' : vm.Form.state.$dirty && vm.Form.state.$valid}">
-                                    <span class="input-label">State</span>
-                                    <input type="text" placeholder="Enter your state" name="state"
-                                           ng-model="vm.user.state" ng-pattern="/^[a-zA-Z\s]*$/" required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.state.$dirty && vm.Form.state.$error"
-                                      ng-messages="vm.Form.state.$error"
-                                      ng-messages-include="app/layout/error-messages.html">
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.state.$dirty && vm.Form.state.$invalid, 'no-errors' : vm.Form.state.$dirty && vm.Form.state.$valid}">
+                                <span class="input-label headline-font">State</span><br>
+                                <select class="form-control" name="state" ng-model="vm.user.state"
+                                        ng-options="obj as obj.name for obj in vm.stateList" required>
+
+                                </select>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.state.$dirty && vm.Form.state.$error"
+                                  ng-messages="vm.Form.state.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
+                            </span>
+
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.city.$dirty && vm.Form.city.$invalid, 'no-errors' : vm.Form.city.$dirty && vm.Form.city.$valid}">
+                                <span class="input-label headline-font">City</span><br>
+                                <select class="form-control" name="city" ng-model="vm.user.city"
+                                        ng-options="obj as obj for obj in vm.user.state.city"
+                                        ng-disabled="!vm.user.state" required>
+
+                                </select>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.city.$dirty && vm.Form.city.$error"
+                                  ng-messages="vm.Form.city.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
+                            </span>
+
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{ 'has-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$invalid, 'no-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$valid}">
+                                <span class="input-label headline-font">Date of birth</span>
+                                <input type="text" placeholder="Date of birth" name="dateOfBirth"
+                                       ng-model="vm.dateOfBirth" ng-click="vm.openDatePicker()" ng-readonly="true"
+                                       required>
+                            </label>
+                            <span class="error-container"
+                                  ng-show="vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$error"
+                                  ng-messages="vm.Form.dateOfBirth.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
                                 </span>
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.city.$dirty && vm.Form.city.$invalid, 'no-errors' : vm.Form.city.$dirty && vm.Form.city.$valid}">
-                                    <span class="input-label">City</span>
-                                    <input type="text" placeholder="Enter your city" name="city"
-                                           ng-model="vm.user.city" ng-pattern="/^[a-zA-Z\s]*$/" required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.city.$dirty && vm.Form.city.$error"
-                                      ng-messages="vm.Form.city.$error"
-                                      ng-messages-include="app/layout/error-messages.html">
-                                </span>
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{'has-error':vm.Form.newPassword.$dirty && vm.Form.newPassword.$invalid, 'no-errors':vm.Form.newPassword.$valid}">
+                                <span class="input-label headline-font">Password</span>
+                                <input type="password" placeholder="Enter a new Password"
+                                       name="newPassword" ng-model="vm.newPassword" ng-minlength=6 required>
+                            </label>
+                            <span class="error-container"
+                                  ng-show="vm.Form.newPassword.$dirty && vm.Form.newPassword.$error"
+                                  ng-messages="vm.Form.newPassword.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
+                            </span>
 
-                                <label class="item item-input item-floating-label"
-                                       ng-class="{ 'has-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$invalid, 'no-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$valid}">
-                                    <span class="input-label">Date of birth</span>
-                                    <input type="text" placeholder="dd-mm-yyyy" name="dateOfBirth"
-                                           ng-model="vm.user.dateOfBirth" ng-click="vm.openDatePicker()" ng-readonly="true" required>
-                                </label>
-                                <span class="error-container" ng-show="vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$error"
-                                      ng-messages="vm.Form.dateOfBirth.$error"
-                                      ng-messages-include="app/layout/error-messages.html">
-                                </span>
+                            <label class="item item-input item-stacked-label"
+                                   ng-class="{'has-error':vm.Form.password2.$dirty && vm.Form.password2.$invalid, 'no-errors':vm.Form.password2.$valid}">
+                                <span class="input-label headline-font">Confirm Password</span>
+                                <input type="password" placeholder="Repeat Password"
+                                       name="password2" ng-model="vm.password2" compare-to="vm.newPassword" required>
+                            </label>
+                            <span class="error-container" ng-show="vm.Form.password2.$dirty && vm.Form.password2.$error"
+                                  ng-messages="vm.Form.password2.$error"
+                                  ng-messages-include="app/layout/error-messages.html">
+                            </span>
+                        </div>
+                    </ng-form>
 
-                                <!--<label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.newPassword.$dirty && vm.Form.newPassword.$invalid, 'no-errors':vm.Form.newPassword.$valid}">-->
-                                    <!--<span class="input-label">Password</span>-->
-                                    <!--<input type="password"   placeholder="Enter a new Password"-->
-                                           <!--name="newPassword" ng-model="vm.newPassword" ng-minlength=6 required>-->
-                                <!--</label>-->
-                                <!--<span class="error-container" ng-show="vm.Form.newPassword.$dirty && vm.Form.newPassword.$error"-->
-                                     <!--ng-messages="vm.Form.newPassword.$error" ng-messages-include="app/layout/error-messages.html">-->
-                                <!--</span>-->
+                    <!--<ng-form name="vm.Form" role="Form" id="Form" novalidate>-->
 
-                                <!--<label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.password2.$dirty && vm.Form.password2.$invalid, 'no-errors':vm.Form.password2.$valid}">-->
-                                    <!--<span class="input-label">Confirm Password</span>-->
-                                    <!--<input type="password" placeholder="Repeat Password"-->
-                                           <!--name="password2" ng-model="vm.password2" compare-to="vm.newPassword" required>-->
-                                <!--</label>-->
-                                <!--<span class="error-container" ng-show="vm.Form.password2.$dirty && vm.Form.password2.$error"-->
-                                     <!--ng-messages="vm.Form.password2.$error" ng-messages-include="app/layout/error-messages.html">-->
-                                <!--</span>-->
+                    <!--<div class="item item-body">-->
 
-                            </div>
-                        </ng-form>
-                    </div>
-                    <div class="animated bounceInRight col col-center">
-                        <button type="submit" class="button button-royal button-block" ng-click="vm.signup()"
-                               ng-disabled="vm.Form.$invalid" >
-                            Sign Up
-                        </button>
-                    </div>
+                    <!--<label class="item item-input item-floating-label"-->
+                    <!--ng-class="{ 'has-errors' : vm.Form.name.$dirty && vm.Form.name.$invalid, 'no-errors' : vm.Form.name.$dirty && vm.Form.name.$valid}">-->
+                    <!--<span class="input-label">Name</span>-->
+                    <!--<input type="text" placeholder="Enter your Name" name="name"-->
+                    <!--ng-model="vm.user.name" ng-pattern="/^[a-zA-Z\s]*$/" required>-->
+                    <!--</label>-->
+                    <!--<span class="error-container" ng-show="vm.Form.name.$dirty && vm.Form.name.$error"-->
+                    <!--ng-messages="vm.Form.name.$error"-->
+                    <!--ng-messages-include="app/layout/error-messages.html">-->
+                    <!--</span>-->
+
+                    <!--<label class="item item-input item-floating-label"-->
+                    <!--ng-class="{ 'has-errors' : vm.Form.email.$dirty && vm.Form.email.$invalid, 'no-errors' : vm.Form.email.$dirty && vm.Form.email.$valid}">-->
+                    <!--<span class="input-label">Email</span>-->
+                    <!--<input type="email" placeholder="Enter E-mail" name="email"-->
+                    <!--ng-model="vm.user.email"-->
+                    <!--ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/" required>-->
+                    <!--</label>-->
+                    <!--<span class="error-container" ng-show="vm.Form.email.$dirty && vm.Form.email.$error"-->
+                    <!--ng-messages="vm.Form.email.$error"-->
+                    <!--ng-messages-include="app/layout/error-messages.html">-->
+                    <!--</span>-->
+
+                    <!--<label class="item item-input item-floating-label"-->
+                    <!--ng-class="{ 'has-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$invalid, 'no-errors' : vm.Form.mobile.$dirty && vm.Form.mobile.$valid}">-->
+                    <!--<span class="input-label">Mobile</span>-->
+                    <!--<input type="number" placeholder="Enter your Mobile Number" name="mobile"-->
+                    <!--ng-model="vm.user.mobile" ng-pattern="/^[0-9]*$/" ng-minlength=10-->
+                    <!--ng-maxlength=10 required>-->
+                    <!--</label>-->
+                    <!--<span class="error-container" ng-show="vm.Form.mobile.$dirty && vm.Form.mobile.$error"-->
+                    <!--ng-messages="vm.Form.mobile.$error"-->
+                    <!--ng-messages-include="app/layout/error-messages.html">-->
+                    <!--</span>-->
+
+                    <!--&lt;!&ndash;<label class="item item-input item-floating-label"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-class="{ 'has-errors' : vm.Form.state.$dirty && vm.Form.state.$invalid, 'no-errors' : vm.Form.state.$dirty && vm.Form.state.$valid}">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="input-label">State</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="text" placeholder="Enter your state" name="state"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-model="vm.user.state" ng-pattern="/^[a-zA-Z\s]*$/" required>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="error-container" ng-show="vm.Form.state.$dirty && vm.Form.state.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages="vm.Form.state.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages-include="app/layout/error-messages.html">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</span>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<label class="item item-input item-floating-label"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-class="{ 'has-errors' : vm.Form.city.$dirty && vm.Form.city.$invalid, 'no-errors' : vm.Form.city.$dirty && vm.Form.city.$valid}">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="input-label">City</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="text" placeholder="Enter your city" name="city"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-model="vm.user.city" ng-pattern="/^[a-zA-Z\s]*$/" required>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="error-container" ng-show="vm.Form.city.$dirty && vm.Form.city.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages="vm.Form.city.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages-include="app/layout/error-messages.html">&ndash;&gt;-->
+                    <!--</span>-->
+
+                    <!--<label class="item item-input item-floating-label"-->
+                    <!--ng-class="{ 'has-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$invalid, 'no-errors' : vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$valid}">-->
+                    <!--<span class="input-label">Date of birth</span>-->
+                    <!--<input type="text" placeholder="Date of birth" name="dateOfBirth"-->
+                    <!--ng-model="vm.dateOfBirth" ng-click="vm.openDatePicker()" ng-readonly="true" required>-->
+                    <!--</label>-->
+                    <!--<span class="error-container" ng-show="vm.Form.dateOfBirth.$dirty && vm.Form.dateOfBirth.$error"-->
+                    <!--ng-messages="vm.Form.dateOfBirth.$error"-->
+                    <!--ng-messages-include="app/layout/error-messages.html">-->
+                    <!--</span>-->
+
+                    <!--&lt;!&ndash;<label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.newPassword.$dirty && vm.Form.newPassword.$invalid, 'no-errors':vm.Form.newPassword.$valid}">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="input-label">Password</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="password"   placeholder="Enter a new Password"&ndash;&gt;-->
+                    <!--&lt;!&ndash;name="newPassword" ng-model="vm.newPassword" ng-minlength=6 required>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="error-container" ng-show="vm.Form.newPassword.$dirty && vm.Form.newPassword.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages="vm.Form.newPassword.$error" ng-messages-include="app/layout/error-messages.html">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</span>&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<label class="item item-input item-floating-label" ng-class="{'has-error':vm.Form.password2.$dirty && vm.Form.password2.$invalid, 'no-errors':vm.Form.password2.$valid}">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="input-label">Confirm Password</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="password" placeholder="Repeat Password"&ndash;&gt;-->
+                    <!--&lt;!&ndash;name="password2" ng-model="vm.password2" compare-to="vm.newPassword" required>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="error-container" ng-show="vm.Form.password2.$dirty && vm.Form.password2.$error"&ndash;&gt;-->
+                    <!--&lt;!&ndash;ng-messages="vm.Form.password2.$error" ng-messages-include="app/layout/error-messages.html">&ndash;&gt;-->
+                    <!--&lt;!&ndash;</span>&ndash;&gt;-->
+
+                    <!--</div>-->
+                    <!--</ng-form>-->
+                </div>
+
+                <div class="row text-center">
+
+                <div id="recaptcha-container"></div>
+
+                </div>
+
+                <div class="animated bounceInRight col col-center">
+                    <button type="submit" id="sign-up-button" class="button button-royal button-block" ng-click="vm.signup()"
+                            ng-disabled="vm.Form.$invalid">
+                        Sign Up
+                    </button>
                 </div>
             </div>
+        </div>
+        <div class="row text-center">
+            <span>By Signing Up You Accept Our <a ui-sref="auth.terms"><strong>Terms And Condition</strong></span></a>
         </div>
     </ion-content>
     <ion-footer-bar align-title="center" class="bar-royal">

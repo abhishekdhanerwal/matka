@@ -10,9 +10,12 @@
   /* @ngInject */
   function principal($q, $http, authFactory, logger, $localStorage , $rootScope ,$state) {
 
+    var tokenExpire ;
+
     var service = {
       signup:signup,
       signin: signin,
+      signinFb:signinFb,
       signout: signout
     };
     return service;
@@ -25,8 +28,7 @@
     function clearLocalStorage() {
       if (isIdentityInLocalStorage()) {
         $localStorage.$reset();
-        // delete $localStorage._identity;
-        // delete $localStorage.loggedInTimeStamp;
+        $localStorage.tokenExpire = tokenExpire;
       }
     }
 
@@ -37,32 +39,41 @@
           .then(
               function (response) {
                 if (response.status == 200) {
-                  // $localStorage.__identity.user = response.data.user;
-                  // $localStorage.__identity.access_token = response.data.token;
-                  $localStorage.loggedInTimeStamp = Date.now();
-                  authFactory.setUserToken(response.data.token , response.data.user)
-                  //_authenticated = true;
-                  $http.defaults.headers.common['Authorization'] = 'Bearer ' + $localStorage.__identity.token;
-
-                  console.log($localStorage.__identity)
-                  deferred.resolve($localStorage.__identity);
+                    enterApplication(deferred.resolve , response);
                 }
                 else {
                   clearLocalStorage();
-                  //_authenticated = false;
-                  console.log(response)
                   deferred.reject("Invalid Login credentials");
                 }
               },
               function (errors) {
-                console.log(errors);
                 clearLocalStorage();
                 logger.error(errors.data.message);
-                //_authenticated = false;
                 deferred.reject("Error connecting server " + errors);
               });
       return deferred.promise;
 
+    }
+
+    function signinFb(user) {
+      var deferred = $q.defer();
+
+      $http.post(__env.dataServerUrl+'/login/fb', user)
+          .then(
+              function (response) {
+                if (response.status == 200) {
+                    enterApplication(deferred.resolve , response);
+                }
+                else {
+                  clearLocalStorage();
+                  deferred.reject("Invalid Login credentials");
+                }
+              },
+              function (errors) {
+                clearLocalStorage();
+                deferred.reject("Error connecting server " + errors);
+              });
+      return deferred.promise;
     }
 
     function signin(user) {
@@ -72,35 +83,32 @@
           .then(
               function (response) {
                 if (response.status == 200) {
-                  // $localStorage.__identity.user = response.data.user;
-                  // $localStorage.__identity.access_token = response.data.token;
-                  $localStorage.loggedInTimeStamp = Date.now();
-                  authFactory.setUserToken(response.data.token , response.data.user)
-                  //_authenticated = true;
-                  $http.defaults.headers.common['Authorization'] = 'Bearer ' + $localStorage.__identity.token;
-
-                  console.log($localStorage.__identity)
-                  deferred.resolve($localStorage.__identity);
+                    enterApplication(deferred.resolve , response);
                 }
                 else {
                   clearLocalStorage();
-                  //_authenticated = false;
                   deferred.reject("Invalid Login credentials");
                 }
               },
               function (errors) {
-                console.log(errors);
                 clearLocalStorage();
-                //_authenticated = false;
                 deferred.reject("Error connecting server " + errors);
               });
       return deferred.promise;
     }
 
+    function enterApplication(callback , response) {
+        $localStorage.loggedInTimeStamp = Date.now();
+        authFactory.setUserToken(response.data.token , response.data.user)
+        $http.defaults.headers.common['Authorization'] = 'Bearer ' + $localStorage.__identity.token;
+        // deferred.resolve($localStorage.__identity);
+        callback($localStorage.__identity);
+    }
+
     function signout() {
+      tokenExpire = $localStorage.tokenExpire;
       clearLocalStorage();
       $http.defaults.headers.common['Authorization'] = '';
-      //_authenticated = false;
       return true;
     }
   }

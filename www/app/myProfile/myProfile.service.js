@@ -22,6 +22,30 @@
             return promise;
         };
 
+        service.updateUserInfo = function(id, user){
+            var promise = $http.put(__env.dataServerUrl +'/user/updateDetails/'+id , user)
+                .then(
+                    function (response) {
+                        return response;
+                    },
+                    function (response) {
+                        return response;
+                    });
+            return promise;
+        };
+
+        service.updateUserPassword = function(id, user){
+            var promise = $http.put(__env.dataServerUrl +'/user/updatePassword/'+id , user)
+                .then(
+                    function (response) {
+                        return response;
+                    },
+                    function (response) {
+                        return response;
+                    });
+            return promise;
+        };
+
         return service;
     };
 }());

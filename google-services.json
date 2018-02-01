@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "779604311115",
+    "firebase_url": "https://crack-the-crock.firebaseio.com",
+    "project_id": "crack-the-crock",
+    "storage_bucket": "crack-the-crock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779604311115:android:263e5f9e935fc73d",
+        "android_client_info": {
+          "package_name": "com.crack.crock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779604311115-5cgisvgdq9cc9ghckoj98l5sia8m47ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNlU0Fk6ot7nXpfT1reZdBF6m-f9K1f4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

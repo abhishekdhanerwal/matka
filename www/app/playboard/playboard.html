@@ -1,29 +1,38 @@
-<ion-view view-title="Playboard" cache-view="false">
+<ion-view view-title="Playboard" class="stable-bg" cache-view="false">
 
-    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true">
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
+
+    <ion-content ng-show=" !vm.progress" class="stable-bg" overflow-scroll="true" padding="true">
 
         <div class="card" ng-if="vm.showTimer && vm.currentDate.getHours() >= vm.tokenExpire">
 
             <div class="row">
                 <div class="col text-center">
-                    <h3>You can play before</h3>
+                    <h3 class="headline-font">You Can Play Before</h3>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col text-center">
-                    <h4><strong class="assertive">Hours : Minutes : Seconds</strong></h4>
+                    <h4><strong class="assertive">Hrs : Min : Sec</strong></h4>
                     <h1><strong class="assertive">{{vm.timeRemaining}}</strong></h1>
                 </div>
             </div>
+            <div class="row">
+                <div class="col col-33"></div>
+                <div class="col col-33"><hr></div>
+                <div class="col col-33"></div>
+            </div>
 
             <div class="row">
                 <div class="col text-center">
-                    <button ng-if="vm.currentDate.getHours() >= 13" class="button button-block button-light">
+                    <button ng-if="vm.currentDate.getHours() >= 13" ng-click="vm.getWinner('morning')" class="button button-block button-stable">
                         Check Morning Session Winner
                     </button>
 
-                    <button ng-if="vm.currentDate.getHours() >= 20" class="button button-block button-light">
+                    <button ng-if="vm.currentDate.getHours() >= 20" ng-click="vm.getWinner('evening')" class="button button-block button-stable">
                         Check Evening Session Winner
                     </button>
                 </div>
@@ -35,13 +44,13 @@
 
             <div class="row" ng-if="vm.showTimerNextDay">
                 <div class="col text-center">
-                    <h3>You can play after</h3>
+                    <h3 class="headline-font">You Can Play After</h3>
                 </div>
             </div>
 
             <div class="row" ng-if="!vm.showTimerNextDay">
                 <div class="col text-center">
-                    <h3>You can play tomorrow</h3>
+                    <h3 class="headline-font">You Can Play Tomorrow</h3>
                 </div>
             </div>
 
@@ -54,10 +63,10 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <button ng-if="vm.currentDate.getHours() >= 13" class="button button-block button-light">
+                    <button ng-if="vm.currentDate.getHours() >= 13" ng-click="vm.getWinner('morning')" class="button button-block button-stable">
                         Check Morning Session Winner
                     </button>
-                    <button ng-if="vm.currentDate.getHours() >= 20" class="button button-block button-light">
+                    <button ng-if="vm.currentDate.getHours() >= 20" ng-click="vm.getWinner('evening')" class="button button-block button-stable">
                         Check Evening Session Winner
                     </button>
                 </div>
@@ -65,15 +74,15 @@
 
         </div>
 
-        <div class="row col text-center" ng-if="vm.currentDate.getHours() >= vm.tokenExpire">
-            <button class="button button-large button-balanced customBtn" ng-disabled="!vm.showTimer" ng-click="vm.play()">PLAY</button>
+        <div class="row col text-center padding-horizontal" ng-if="vm.currentDate.getHours() >= vm.tokenExpire">
+            <button class="button button-large button-balanced button-block" ng-disabled="!vm.showTimer" ng-click="vm.play()">Play & Get 50 Points</button>
         </div>
 
         <div class="card" ng-if="vm.currentDate.getHours() < vm.tokenExpire">
 
             <div class="row">
                 <div class="col text-center">
-                    <h3>Your token is</h3>
+                    <h3 class="headline-font">Your Token Is</h3>
                 </div>
             </div>
 
@@ -85,17 +94,18 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <h3>Lucky draw will be at -
+                    <h3 class="headline-font">Lucky Draw Will Be At -
                         <span ng-if="vm.currentDate.getHours() < 13"> 01:00 PM</span>
                         <span ng-if="vm.currentDate.getHours() >= 13"> 08:00 PM</span>
                     </h3>
                 </div>
             </div>
         </div>
+
     </ion-content>
     <ion-footer-bar align-title="center">
         <div class="buttons">
-            <button class="button">NOTE - 25 points will be deducted after each answer !!</button>
+            <button class="button"> 25 Points Will Be Deducted After Each Answer !!</button>
         </div>
         <div class="buttons">
             <button class="button"></button>

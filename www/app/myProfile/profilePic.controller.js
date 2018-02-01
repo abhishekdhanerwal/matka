@@ -7,7 +7,7 @@
 
     ProfilePicController.$inject = ['$state' , 'logger' , 'profileFactory' , '$localStorage' , '$ionicHistory', '$cordovaCamera', '$ionicLoading' , '$cordovaFileTransfer'];
     /* @ngInject */
-    function ProfilePicController($state, logger, userFactory , $localStorage , $ionicHistory, $cordovaCamera , $ionicLoading , $cordovaFileTransfer) {
+    function ProfilePicController($state, logger, profileFactory , $localStorage , $ionicHistory, $cordovaCamera , $ionicLoading , $cordovaFileTransfer) {
         var vm = this;
         vm.progress = true;
 
@@ -21,6 +21,13 @@
                 disableBack: true
             });
             vm.user = angular.copy($localStorage.__identity.user);
+            if(vm.user.profilePic){
+                if(vm.user.fbLogin)
+                    vm.user.profilePicUrl = 'http://graph.facebook.com/'+ vm.user.profilePic +'/picture?width=270&height=270' ;
+                else
+                    vm.user.profilePicUrl = __env.dataServerUrl + '/user/'+ vm.user.profilePic;
+            }
+
             console.log(vm.user)
         }
 
@@ -98,16 +105,24 @@
                 console.log("Code = " + r.responseCode);
                 console.log("Response = " + r.response);
                 console.log("Sent = " + r.bytesSent);
-                vm.user.profilePicUrl = r.response;
+                var uploadedFile = JSON.parse(r.response)
+                //         console.log(uploadedFile);
+                //         // console.log("Code = " + r.responseCode);
+                //         // console.log(r.response);
+                //         // // console.log(r.response.file);
+                //         // console.dir(r.response);
+                //         // console.log(r.response.filename);
+                //         // console.log("Sent = " + r.bytesSent);
+                vm.user.profilePic = uploadedFile.file.filename;
 
-                userFactory.edit(vm.user.id, vm.user).then(function (response) {
+                profileFactory.updateUserInfo(vm.user._id, vm.user).then(function (response) {
                     if (response.status == 200) {
-                        $localStorage._identity.principal = response.data;
+                        $localStorage.__identity.user.profilPic = vm.user.profilePic;
                         $ionicHistory.nextViewOptions({
                             disableBack: true
                         });
                         logger.info('User Saved');
-                        $state.go('app.notice')
+                        // $state.go('app.notice')
                     }
                     else if (response.status == -1) {
                         vm.enableReset = false;
@@ -173,10 +188,7 @@
                     // loadingStatus.increment();
                 }
             };
-            ft.upload(fileURL, encodeURI(__env.dataServerUrl +'/fileUpload/userImageUpload'),win, fail, options , true);
-            // ft.upload(fileURL, encodeURI(__env.dataServerUrl +'/fileUpload/userImageUpload'), viewUploadedPictures(), function(error) {
-            //     $ionicLoading.show({template: 'Errore di connessione...'});
-            //     $ionicLoading.hide();}, options);
+            ft.upload(fileURL, encodeURI(__env.dataServerUrl +'/user/upload'),win, fail, options , true);
         }
 
     }

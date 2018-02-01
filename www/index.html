@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Security-Policy">
     <title></title>
 
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Risque|Russo+One|Shadows+Into+Light|Supermercado+One" rel="stylesheet">
     <!-- compiled css output -->
     <link href="css/ionic.app.css" rel="stylesheet">
 
@@ -33,11 +34,7 @@
     <!-- google maps javascript -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&amp;sensor=true"></script>
 
-
-
-
     <script src="env.js"></script>
-
 
     <!-- bower dependencies .js -->
     <script src="lib/angular-toastr/dist/angular-toastr.js"></script>
@@ -50,9 +47,98 @@
     <script src="lib/lodash/lodash.js"></script>
 
     <!--<script src="lib/angular-animate/angular-animate.js"></script>-->
-
-
     <script src="cordova.js"></script>
+
+    <script type="text/javascript" src="SocialSharing.js"></script>
+
+    <script type="text/javascript" src="openfb.js"></script>
+    <script type="text/javascript" src="ngopenfb.js"></script>
+
+
+
+    <!--<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>-->
+
+    <!--<script>-->
+      <!--// Defaults to sessionStorage for storing the Facebook token-->
+      <!--openFB.init({appId: '139283340210743'});-->
+      <!--//  Uncomment the line below to store the Facebook token in localStorage instead of sessionStorage-->
+      <!--//  openFB.init({appId: 'YOUR_FB_APP_ID', tokenStore: window.localStorage});-->
+      <!--function login() {-->
+        <!--openFB.login(-->
+                <!--function(response) {-->
+                  <!--if(response.status === 'connected') {-->
+                    <!--alert('Facebook login succeeded, got access token: ' + response.authResponse.accessToken);-->
+                  <!--} else {-->
+                    <!--alert('Facebook login failed: ' + response.error);-->
+                  <!--}-->
+                <!--}, {scope: 'email,read_stream,publish_actions'});-->
+      <!--}-->
+      <!--function getInfo() {-->
+        <!--openFB.api({-->
+          <!--path: '/me',-->
+          <!--success: function(data) {-->
+            <!--console.log(JSON.stringify(data));-->
+            <!--document.getElementById("userName").innerHTML = data.name;-->
+            <!--document.getElementById("userPic").src = 'http://graph.facebook.com/' + data.id + '/picture?type=small';-->
+          <!--},-->
+          <!--error: errorHandler});-->
+      <!--}-->
+      <!--function share() {-->
+        <!--openFB.api({-->
+          <!--method: 'POST',-->
+          <!--path: '/me/feed',-->
+          <!--params: {-->
+            <!--message: document.getElementById('Message').value || 'Testing Facebook APIs'-->
+          <!--},-->
+          <!--success: function() {-->
+            <!--alert('the item was posted on Facebook');-->
+          <!--},-->
+          <!--error: errorHandler});-->
+      <!--}-->
+      <!--function readPermissions() {-->
+        <!--openFB.api({-->
+          <!--method: 'GET',-->
+          <!--path: '/me/permissions',-->
+          <!--success: function(result) {-->
+            <!--alert(JSON.stringify(result.data));-->
+          <!--},-->
+          <!--error: errorHandler-->
+        <!--});-->
+      <!--}-->
+      <!--function revoke() {-->
+        <!--openFB.revokePermissions(-->
+                <!--function() {-->
+                  <!--alert('Permissions revoked');-->
+                <!--},-->
+                <!--errorHandler);-->
+      <!--}-->
+      <!--function logout() {-->
+        <!--openFB.logout(-->
+                <!--function() {-->
+                  <!--alert('Logout successful');-->
+                <!--},-->
+                <!--errorHandler);-->
+      <!--}-->
+      <!--function errorHandler(error) {-->
+        <!--alert(error.message);-->
+      <!--}-->
+    <!--</script>-->
+
+    <script>
+//      // Initialize Firebase
+//      // TODO: Replace with your project's customized code snippet
+//      var config = {
+//        apiKey: "AIzaSyBtauLk86wlanubPIbFdPOfyfL4Hvj1XZE",
+//        authDomain: "crack-the-crock.firebaseapp.com",
+//        databaseURL: "https://crack-the-crock.firebaseio.com",
+//        projectId: "crack-the-crock",
+//        storageBucket: "crack-the-crock.appspot.com",
+//        messagingSenderId: "779604311115"
+//      };
+//      firebase.initializeApp(config);
+    </script>
+
+
     <!-- your app's js -->
     <script src="app/app.js"></script>
     <script src="app/auth/auth.module.js"></script>
@@ -62,9 +148,10 @@
     <script src="app/layout/layout.module.js"></script>
     <script src="app/myProfile/myProfile.module.js"></script>
     <script src="app/history/history.module.js"></script>
-
+    <script src="app/share/share.module.js"></script>
     <script src="app/playboard/playboard.module.js"></script>
-    <script src="app/my-dietitian/myDietitian.module.js"></script>
+    <script src="app/transaction/transaction.module.js"></script>
+    <script src="app/writeToUs/writeToUs.module.js"></script>
 
     <script src="app/core/constants.js"></script>
     <script src="app/core/password.directive.js"></script>
@@ -74,13 +161,16 @@
     <script src="app/auth/auth.route.js"></script>
     <script src="app/myProfile/myProfile.route.js"></script>
     <script src="app/playboard/playboard.route.js"></script>
-    <script src="app/my-dietitian/myDietitian.route.js"></script>
     <script src="app/history/history.route.js"></script>
+    <script src="app/share/share.route.js"></script>
+    <script src="app/transaction/transaction.route.js"></script>
+    <script src="app/writeToUs/writeToUs.route.js"></script>
 
     <script src="app/auth/init.controller.js"></script>
     <script src="app/auth/signin.controller.js"></script>
     <script src="app/auth/signout.controller.js"></script>
     <script src="app/auth/signup.controller.js"></script>
+    <script src="app/auth/validation.controller.js"></script>
     <script src="app/layout/sidemenu.controller.js"></script>
 
     <script src="app/auth/forgotPassword.controller.js"></script>
@@ -101,12 +191,17 @@
 
     <script src="app/playboard/playboard.service.js"></script>
     <script src="app/playboard/playboard.controller.js"></script>
-
-    <script src="app/my-dietitian/myDietitian.controller.js"></script>
-    <script src="app/my-dietitian/myDietitian.service.js"></script>
+    <script src="app/playboard/winner.controller.js"></script>
 
     <script src="app/history/history.controller.js"></script>
     <script src="app/history/history.service.js"></script>
+
+    <script src="app/share/share.controller.js"></script>
+    <script src="app/transaction/transaction.controller.js"></script>
+    <script src="app/transaction/addMoney.controller.js"></script>
+    <script src="app/writeToUs/writeToUs.controller.js"></script>
+    <script src="app/writeToUs/writeToUs.service.js"></script>
+
 
 
   </head>

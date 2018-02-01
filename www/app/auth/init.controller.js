@@ -5,26 +5,21 @@
         .module('app.auth')
         .controller('InitController', InitController);
 
-    InitController.$inject = ['$state' , '$window' , '$localStorage' , '$ionicHistory'];
+    InitController.$inject = ['$state'  , '$localStorage' , '$ionicHistory'];
     /* @ngInject */
-    function InitController($state , $window , $localStorage , $ionicHistory) {
+    function InitController($state  , $localStorage , $ionicHistory) {
         var vm = this;
         vm.progress = true;
 
         activate();
 
         function activate() {
-
-            // $window.location.reload(true);
-
-            // $state.reload();
-
-            if($localStorage._identity != undefined && $localStorage._identity.principal != undefined){
-                $state.go('auth.login');
-            }
-            else {
-                $state.go('auth.login');
-            }
+                if($localStorage.__identity != undefined && $localStorage.__identity.token != undefined){
+                    $state.go('app.playboard');
+                }
+                else {
+                    $state.go('auth.login');
+                }
             $ionicHistory.nextViewOptions({
                 disableBack: true
             });

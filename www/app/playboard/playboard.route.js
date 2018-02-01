@@ -21,6 +21,15 @@
                     controller: 'PlayboardController',
                     controllerAs: 'vm'
                 }
+            },
+            {
+                state: 'app.winner',
+                config: {
+                    url: '/winner/:time',
+                    templateUrl: 'app/playboard/winner.html',
+                    controller: 'WinnerController',
+                    controllerAs: 'vm'
+                }
             }
         ];
     }

@@ -44,3 +44,25 @@ div.spinner {
 .button.customBtn{
     width:150px;
 }
+
+.align-image-center {
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
+
+.sidebar-font {
+    font-family: 'Risque', cursive !important;
+}
+
+.headline-font {
+    font-family: 'Supermercado One', cursive !important;
+}
+
+.date-font {
+    font-family: 'Russo One', sans-serif !important;
+}
+
+.history-result-font {
+    font-family: 'Permanent Marker', cursive !important;
+}

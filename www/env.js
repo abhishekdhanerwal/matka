@@ -2,10 +2,10 @@
 (function (window) {
   window.__env = window.__env || {};
 
-  var environment = "qaa"; //can be dev, test or prod.qa
+  var environment = "qa"; //can be dev, test or prod.qa
 
   if(environment === "qa"){
-    window.__env.dataServerUrl = 'https://lit-plains-35147.herokuapp.com';
+    window.__env.dataServerUrl = 'https://crackthecrock-backend.herokuapp.com';
     window.__env.baseUrl = '/';
     window.__env.enableDebug = true;
     // window.__env.user = "";

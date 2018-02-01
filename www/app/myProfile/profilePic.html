@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" ng-if="!vm.user.fbLogin && !vm.user.googleLogin">
                 <div class="col col-99" style="text-align: center">
                     <i ng-click="vm.takePicture()" class="text-2x ion-camera"></i>&emsp;
                     <i ng-click="vm.selectPicture()" class="text-2x ion-folder"></i>

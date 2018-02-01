@@ -1,5 +1,9 @@
 <ion-view view-title="Login" hide-nav-bar="true" class="login-bg">
-  <ion-content class="login-bg">
+
+  <div class="spinner" ng-show="vm.progress">
+    <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+  </div>
+  <ion-content class="login-bg" ng-show="!vm.progress">
     <div class="login-content">
 
       <!-- Login form -->
@@ -7,8 +11,6 @@
         <div class="col col-center">
           <div class="card login-container animated bounceInLeft">
             <form name="vm.forgot_password_form" role="form" id="form" novalidate>
-              <!-- <my-tabs>
-              <my-tab title="Forgot Password"> -->
               <div class="item item-body">
 
                 <label class="item item-input" ng-class="{ 'has-errors' : vm.forgot_password_form.number.$dirty && vm.forgot_password_form.number.$invalid,
@@ -30,12 +32,13 @@
               </div>
             </form>
           </div>
+          <div class="row text-center">
+            <h4 class="assertive"><strong>{{vm.pass}}</strong></h4>
+          </div>
           <div class="alternative-actions text-center">
             <button class="button button-clear button-royal" ui-sref="auth.login">
               <strong>Log In</strong>
             </button>
-            <!--<a class="action-link button button-clear" ui-sref="auth.login"><strong>Log In</strong></a>-->
-            <!--<a class="action-link button button-small button-clear" ui-sref="intro.auth-signup()">Sign up</a>-->
           </div>
         </div>
       </div>

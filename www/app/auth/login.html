@@ -1,8 +1,17 @@
-<ion-view view-title="Login" hide-nav-bar="true" class="login-bg">
-  <ion-content class="login-bg" padding="true">
-    <div class="login-content">
+<ion-view view-title="Login" hide-nav-bar="true">
 
-          <ng-form name="login_form" class="form-container" novalidate>
+    <div class="spinner" ng-show="vm.progress">
+        <ion-spinner icon="lines" class="spinner-royal"></ion-spinner>
+    </div>
+
+    <ion-content class="login-bg" ng-show="!vm.progress" padding="true">
+
+        <div id="fb-root"></div>
+
+        <div class="login-content">
+            <img class="animated fadeInDown col-offset-20" src="img/app-logo.png">
+
+            <ng-form name="login_form" class="form-container" novalidate>
             <div class="input-list list list-inset animated bounceInLeft ">
               <label class="item item-input">
                 <input type="number" placeholder="Enter your mobile number" name="mobile"
@@ -20,13 +29,15 @@
               </button>
             </div>
           </ng-form>
-      <br /><br />
           <div class="alternative-actions text-center">
             <button class="button button-clear button-royal" ui-sref="auth.forgot">
               <strong>Forgot Password?</strong>
             </button>
-            <!--<a class="action-link button button-clear" ui-sref="auth.forgot"><strong>Forgot Password?</strong></a>-->
           </div>
+
+                <button class="button button-small button-block button-stable animated slideInUp" ng-click="vm.fbLogin()">
+                    <span class="positive padding-right"><i class="icon ion-social-facebook"></i></span><span class="positive"> LogIn With Facebook </span>
+                </button>
 
       </div>
   </ion-content>
