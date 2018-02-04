@@ -173,6 +173,7 @@
                 var ageDifMs = Date.now() - vm.user.dateOfBirth.getTime();
                 var ageDate = new Date(ageDifMs); // miliseconds from epoch
                 if(ageDate.getUTCFullYear() - 1970 < 18){
+                    $ionicLoading.hide();
                     logger.error('You are not 18+');
                 }
                 else {
@@ -191,7 +192,11 @@
                                 $state.go('app.playboard');
                                 logger.info('Profile created', 'default');
 
-                            });
+                            },
+                                function (err) {
+                                    $ionicLoading.hide();
+                                    console.log(err)
+                                });
                     vm.progress = false;
                 }
             }

@@ -2,75 +2,387 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07e2cfc8-2b73-4c11-9115-75d191e06595" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/my-dietitian/myDietitian.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/my-dietitian/myDietitian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/my-dietitian/myDietitian.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/my-dietitian/myDietitian.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/app/my-dietitian/myDietitian.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/basic-info-header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/eHealth_login_screen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/login-bg-matka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/login-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/matka-login-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/medical-condition.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/people/adam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/wallpaper-one.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/splash.png" afterPath="$PROJECT_DIR$/resources/splash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/images.png" afterPath="$PROJECT_DIR$/www/img/images.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/eHealthMob.iml" afterPath="$PROJECT_DIR$/.idea/eHealthMob.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/app.js" afterPath="$PROJECT_DIR$/www/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/auth.html" afterPath="$PROJECT_DIR$/www/app/auth/auth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/auth.route.js" afterPath="$PROJECT_DIR$/www/app/auth/auth.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/authorization.service.js" afterPath="$PROJECT_DIR$/www/app/auth/authorization.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/init.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/init.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/login.html" afterPath="$PROJECT_DIR$/www/app/auth/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/login_forgot.html" afterPath="$PROJECT_DIR$/www/app/auth/login_forgot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/principal.service.js" afterPath="$PROJECT_DIR$/www/app/auth/principal.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/signUp.html" afterPath="$PROJECT_DIR$/www/app/auth/signUp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/signin.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/signin.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/auth/signup.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/signup.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/history/history.controller.js" afterPath="$PROJECT_DIR$/www/app/history/history.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/history/history.html" afterPath="$PROJECT_DIR$/www/app/history/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/layout/sidebar.html" afterPath="$PROJECT_DIR$/www/app/layout/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/layout/sidemenu.controller.js" afterPath="$PROJECT_DIR$/www/app/layout/sidemenu.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.controller.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.html" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.service.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/myProfile/profilePic.controller.js" afterPath="$PROJECT_DIR$/www/app/myProfile/profilePic.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/myProfile/profilePic.html" afterPath="$PROJECT_DIR$/www/app/myProfile/profilePic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/playboard/playboard.html" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/playboard/playboard.route.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/playboard/playboard.service.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ionic.app.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/env.js" afterPath="$PROJECT_DIR$/www/env.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change beforePath="$PROJECT_DIR$/hooks/README.md" afterPath="$PROJECT_DIR$/hooks/README.md" />
+      <change beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterPath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" />
+      <change beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="$PROJECT_DIR$/scss/ionic.app.scss" />
+      <change beforePath="$PROJECT_DIR$/www/app/app.js" afterPath="$PROJECT_DIR$/www/app/app.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/auth.html" afterPath="$PROJECT_DIR$/www/app/auth/auth.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/auth.module.js" afterPath="$PROJECT_DIR$/www/app/auth/auth.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/auth.route.js" afterPath="$PROJECT_DIR$/www/app/auth/auth.route.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/forgot.service.js" afterPath="$PROJECT_DIR$/www/app/auth/forgot.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/init.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/init.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/login.html" afterPath="$PROJECT_DIR$/www/app/auth/login.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/login_forgot.html" afterPath="$PROJECT_DIR$/www/app/auth/login_forgot.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/principal.service.js" afterPath="$PROJECT_DIR$/www/app/auth/principal.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/signin.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/signin.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/signout.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/signout.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/signup.controller.js" afterPath="$PROJECT_DIR$/www/app/auth/signup.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/auth/validationHelperFactory.js" afterPath="$PROJECT_DIR$/www/app/auth/validationHelperFactory.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/compare-to.js" afterPath="$PROJECT_DIR$/www/app/core/compare-to.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/constants.js" afterPath="$PROJECT_DIR$/www/app/core/constants.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/core.module.js" afterPath="$PROJECT_DIR$/www/app/core/core.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/custom.directive.js" afterPath="$PROJECT_DIR$/www/app/core/custom.directive.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/password.directive.js" afterPath="$PROJECT_DIR$/www/app/core/password.directive.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/select-directive.js" afterPath="$PROJECT_DIR$/www/app/core/select-directive.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/show-hide-password.html" afterPath="$PROJECT_DIR$/www/app/core/show-hide-password.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/core/toast.service.js" afterPath="$PROJECT_DIR$/www/app/core/toast.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/history/history.html" afterPath="$PROJECT_DIR$/www/app/history/history.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/history/history.module.js" afterPath="$PROJECT_DIR$/www/app/history/history.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/history/history.route.js" afterPath="$PROJECT_DIR$/www/app/history/history.route.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/history/history.service.js" afterPath="$PROJECT_DIR$/www/app/history/history.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/layout/error-messages.html" afterPath="$PROJECT_DIR$/www/app/layout/error-messages.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/layout/layout.module.js" afterPath="$PROJECT_DIR$/www/app/layout/layout.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/layout/sidebar.html" afterPath="$PROJECT_DIR$/www/app/layout/sidebar.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/layout/sidemenu.controller.js" afterPath="$PROJECT_DIR$/www/app/layout/sidemenu.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/logger/logger.js" afterPath="$PROJECT_DIR$/www/app/logger/logger.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/logger/logger.module.js" afterPath="$PROJECT_DIR$/www/app/logger/logger.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.controller.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.html" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.module.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.route.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.route.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/myProfile/myProfile.service.js" afterPath="$PROJECT_DIR$/www/app/myProfile/myProfile.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/playboard/playboard.html" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.html" />
+      <change beforePath="$PROJECT_DIR$/www/app/playboard/playboard.module.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/playboard/playboard.route.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.route.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/playboard/playboard.service.js" afterPath="$PROJECT_DIR$/www/app/playboard/playboard.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/router/router-helper.provider.js" afterPath="$PROJECT_DIR$/www/app/router/router-helper.provider.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/router/router.module.js" afterPath="$PROJECT_DIR$/www/app/router/router.module.js" />
+      <change beforePath="$PROJECT_DIR$/www/app/writeToUs/writeToUs.service.js" afterPath="$PROJECT_DIR$/www/app/writeToUs/writeToUs.service.js" />
+      <change beforePath="$PROJECT_DIR$/www/css/ionic.app.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" />
+      <change beforePath="$PROJECT_DIR$/www/css/ionic.app.css.map" afterPath="$PROJECT_DIR$/www/css/ionic.app.css.map" />
+      <change beforePath="$PROJECT_DIR$/www/css/ionic.app.min.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.min.css" />
+      <change beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/www/env.js" afterPath="$PROJECT_DIR$/www/env.js" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-animate/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/index.js" afterPath="$PROJECT_DIR$/www/lib/angular-animate/index.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-animate/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-animate/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/LICENCE.txt" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/LICENCE.txt" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/elastic.js" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/elastic.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/index.html" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/index.html" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-elastic/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-elastic/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-messages/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.js" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-messages/angular-messages.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-messages/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-messages/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/CODE_OF_CONDUCT.md" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/CODE_OF_CONDUCT.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/LICENSE.md" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/angular-nl2br.js" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/angular-nl2br.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/angular-nl2br.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/angular-nl2br.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/karma.conf.js" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/karma.conf.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/lib/index.js" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/lib/index.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-nl2br/src/index.coffee" afterPath="$PROJECT_DIR$/www/lib/angular-nl2br/src/index.coffee" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/index.js" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/index.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/.npmignore" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/LICENSE" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.css" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.min.css" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.min.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.tpls.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.tpls.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.tpls.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/dist/angular-toastr.tpls.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/gulpfile.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-toastr/index.js" afterPath="$PROJECT_DIR$/www/lib/angular-toastr/index.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/README.md" afterPath="$PROJECT_DIR$/www/lib/angular/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/www/lib/angular/angular-csp.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/index.js" afterPath="$PROJECT_DIR$/www/lib/angular/index.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/LICENSE.MD" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/LICENSE.MD" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/README.md" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/bower.json" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/dist/ionic-datepicker.bundle.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/dist/ionic-datepicker.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/gulpfile.js" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic-datepicker/src/ionic-datepicker.styles.css" afterPath="$PROJECT_DIR$/www/lib/ionic-datepicker/src/ionic-datepicker.styles.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterPath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterPath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterPath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ionic/version.json" afterPath="$PROJECT_DIR$/www/lib/ionic/version.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/.bower.json" afterPath="$PROJECT_DIR$/www/lib/jquery/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/www/lib/jquery/AUTHORS.txt" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/www/lib/jquery/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/README.md" afterPath="$PROJECT_DIR$/www/lib/jquery/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/bower.json" afterPath="$PROJECT_DIR$/www/lib/jquery/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/core.js" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/core.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.min.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/www/lib/jquery/dist/jquery.slim.min.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/LICENSE.txt" afterPath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/www/lib/jquery/external/sizzle/dist/sizzle.min.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/www/lib/jquery/src/.eslintrc.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/jsonp.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/load.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/parseXML.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/script.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/location.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/location.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/nonce.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/var/rquery.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/ajax/xhr.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes/attr.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes/classes.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes/prop.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/attributes/val.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/callbacks.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/DOMEval.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/DOMEval.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/access.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/init.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/parseHTML.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/ready-no-deferred.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/ready.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/readyException.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/readyException.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/stripAndCollapse.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/stripAndCollapse.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/core/var/rsingleTag.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/addGetHookIf.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/adjustCSS.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/adjustCSS.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/curCSS.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/showHide.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/showHide.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/cssExpand.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/getStyles.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/isHiddenWithinTree.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/isHiddenWithinTree.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/rmargin.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/rnumnonpx.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/css/var/swap.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/css/var/swap.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/data.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/data.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/data/Data.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/data/var/acceptData.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/data/var/acceptData.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/data/var/dataPriv.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/data/var/dataPriv.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/data/var/dataUser.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/data/var/dataUser.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/deferred.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/deferred/exceptionHook.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/deferred/exceptionHook.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/deprecated.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/dimensions.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/effects.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/effects.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/effects/Tween.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/effects/animatedSelector.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event/ajax.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event/ajax.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event/alias.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event/focusin.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event/focusin.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/event/trigger.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/event/trigger.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/exports/amd.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/exports/global.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/_evalUrl.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/buildFragment.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/buildFragment.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/getAll.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/setGlobalEval.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/setGlobalEval.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rcheckableType.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rscriptType.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rscriptType.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rtagName.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/var/rtagName.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/wrapMap.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/manipulation/wrapMap.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/offset.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/offset.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/queue.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/queue.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/queue/delay.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/selector-native.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/selector-sizzle.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/selector.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/selector.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/serialize.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/traversing.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/traversing/findFilter.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/dir.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/dir.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/rneedsContext.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/siblings.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/traversing/var/siblings.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/ObjectFunctionString.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/ObjectFunctionString.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/arr.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/class2type.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/concat.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/document.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/document.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/documentElement.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/documentElement.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/fnToString.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/fnToString.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/getProto.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/getProto.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/hasOwn.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/indexOf.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/pnum.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/push.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/rcssNum.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/rcssNum.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/rnothtmlwhite.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/rnothtmlwhite.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/slice.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/support.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/var/toString.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/www/lib/jquery/src/wrap.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/.bower.json" afterPath="$PROJECT_DIR$/www/lib/ngstorage/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/.editorconfig" afterPath="$PROJECT_DIR$/www/lib/ngstorage/.editorconfig" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/.gitattributes" afterPath="$PROJECT_DIR$/www/lib/ngstorage/.gitattributes" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/.npmignore" afterPath="$PROJECT_DIR$/www/lib/ngstorage/.npmignore" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/LICENSE" afterPath="$PROJECT_DIR$/www/lib/ngstorage/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/README.md" afterPath="$PROJECT_DIR$/www/lib/ngstorage/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/bower.json" afterPath="$PROJECT_DIR$/www/lib/ngstorage/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.js" afterPath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.min.js" afterPath="$PROJECT_DIR$/www/lib/ngstorage/ngStorage.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/ngstorage/package.js" afterPath="$PROJECT_DIR$/www/lib/ngstorage/package.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/platform.js/.bower.json" afterPath="$PROJECT_DIR$/www/lib/platform.js/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/platform.js/LICENSE" afterPath="$PROJECT_DIR$/www/lib/platform.js/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/www/lib/platform.js/bower.json" afterPath="$PROJECT_DIR$/www/lib/platform.js/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/platform.js/platform.js" afterPath="$PROJECT_DIR$/www/lib/platform.js/platform.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/platform.js/yarn.lock" afterPath="$PROJECT_DIR$/www/lib/platform.js/yarn.lock" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/.bower.json" afterPath="$PROJECT_DIR$/www/lib/toastr/.bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/LICENSE" afterPath="$PROJECT_DIR$/www/lib/toastr/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/README.md" afterPath="$PROJECT_DIR$/www/lib/toastr/README.md" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/bower.json" afterPath="$PROJECT_DIR$/www/lib/toastr/bower.json" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.css" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.js" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.js.map" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.js.map" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.less" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.less" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.min.css" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.min.css" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.min.js" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.min.js" />
+      <change beforePath="$PROJECT_DIR$/www/lib/toastr/toastr.scss" afterPath="$PROJECT_DIR$/www/lib/toastr/toastr.scss" />
     </list>
     <ignored path="eHealthMob.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,37 +399,66 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="eHealthMob" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="env.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/env.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uglify.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hooks/after_prepare/uglify.js">
+      <file leaf-file-name="playboard.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="263" column="31" lean-forward="true" selection-start-line="263" selection-start-column="31" selection-end-line="263" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uglify-config.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hooks/uglify-config.json">
+      <file leaf-file-name="profilePic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/myProfile/profilePic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="336">
+              <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/layout/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidemenu.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/layout/sidemenu.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/auth/signup.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3654">
+              <caret line="174" column="57" lean-forward="false" selection-start-line="174" selection-start-column="57" selection-end-line="174" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -180,18 +521,18 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/app/playboard/playboard.route.js" />
         <option value="$PROJECT_DIR$/www/app/playboard/winner.controller.js" />
-        <option value="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" />
         <option value="$PROJECT_DIR$/www/app/playboard/winner.html" />
-        <option value="$PROJECT_DIR$/www/env.js" />
         <option value="$PROJECT_DIR$/www/app/auth/auth.html" />
         <option value="$PROJECT_DIR$/www/app/auth/authorization.service.js" />
         <option value="$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js" />
         <option value="$PROJECT_DIR$/www/app/auth/login.html" />
         <option value="$PROJECT_DIR$/www/app/auth/login_forgot.html" />
         <option value="$PROJECT_DIR$/www/app/auth/signin.controller.js" />
-        <option value="$PROJECT_DIR$/www/app/auth/signup.controller.js" />
         <option value="$PROJECT_DIR$/www/app/auth/principal.service.js" />
         <option value="$PROJECT_DIR$/hooks/uglify-config.json" />
+        <option value="$PROJECT_DIR$/www/app/auth/signup.controller.js" />
+        <option value="$PROJECT_DIR$/www/app/playboard/playboard.controller.js" />
+        <option value="$PROJECT_DIR$/www/env.js" />
       </list>
     </option>
   </component>
@@ -209,21 +550,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="21" />
     <option name="width" value="1309" />
     <option name="height" value="747" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -240,93 +571,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="after_prepare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="myProfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matka" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="playboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/workspace/iAccelUi" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../time-server" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -347,6 +648,18 @@
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/www/img" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -373,15 +686,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
@@ -402,9 +706,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -432,25 +747,30 @@
       <workItem from="1516858725581" duration="37097000" />
       <workItem from="1516968967933" duration="6950000" />
       <workItem from="1516995374215" duration="12140000" />
-      <workItem from="1517123233592" duration="37077000" />
+      <workItem from="1517123233592" duration="37815000" />
+      <workItem from="1517662726091" duration="3981000" />
+      <workItem from="1517725030203" duration="594000" />
+      <workItem from="1517768471293" duration="1644000" />
+      <workItem from="1517728076793" duration="1230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333607000" />
+    <option name="totallyTimeSpent" value="341794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="21" width="1309" height="747" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2515528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11158118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3583461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42582107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -481,6 +801,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gradle" />
   </component>
@@ -500,67 +823,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2158">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.java" />
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-fcm/src/android/FCMPlugin.gradle" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/myProfile/profilePic.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/myProfile/myProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/layout/sidemenu.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/layout/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/myProfile/profilePic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-          <folding />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -587,128 +869,105 @@
     <entry file="file://$PROJECT_DIR$/www/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="976">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="52" column="105" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
-          <folding />
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/transaction/transaction.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/transaction/transaction.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/transaction/transaction.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/transaction/paytm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-          <folding />
+          <caret line="11" column="80" lean-forward="false" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/share/share.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
-          <folding />
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/transaction/transaction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="18" />
-          <folding />
+          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="193" column="51" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
-          <folding />
+          <caret line="193" column="51" lean-forward="false" selection-start-line="193" selection-start-column="51" selection-end-line="193" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/playboard/winner.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
+          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-315">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/playboard/winner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="45" />
-          <folding />
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/signUp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/history/history.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-703">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -720,177 +979,188 @@
     <entry file="file://$PROJECT_DIR$/www/app/auth/auth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/auth.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/auth.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="35" />
-          <folding />
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/authorization.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/forgot.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/forgotPassword.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/init.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/init.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/login_forgot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-          <folding>
-            <marker date="1517428028603" expanded="true" signature="617:835" ph="{...}" />
-          </folding>
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/signin.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1665">
-          <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
-          <folding />
+          <caret line="111" column="2" lean-forward="false" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/signout.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/auth/signup.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="154" column="17" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="265" column="72" selection-start-line="265" selection-start-column="72" selection-end-line="265" selection-end-column="72" />
-          <folding />
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/validation.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/validationHelperFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-224">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/auth/principal.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hooks/after_prepare/uglify.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hooks/uglify-config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="63">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" column="105" lean-forward="false" selection-start-line="52" selection-start-column="105" selection-end-line="52" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/auth/signup.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="174" column="57" lean-forward="false" selection-start-line="174" selection-start-column="57" selection-end-line="174" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/myProfile/profilePic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/layout/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/layout/sidemenu.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/playboard/playboard.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="263" column="31" lean-forward="true" selection-start-line="263" selection-start-column="31" selection-end-line="263" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>

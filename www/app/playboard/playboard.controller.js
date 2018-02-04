@@ -244,6 +244,7 @@
                     if(res){
                         playboardFactory.generateRandomCoupon($localStorage.__identity.user._id , tempCheckpoint).then(function (response) {
                             console.log(response)
+                            console.log($localStorage.__identity)
                             if (response.status == 200) {
                                 vm.token = {};
                                 $localStorage.__identity.user = response.data.data.user;
